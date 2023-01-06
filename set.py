@@ -37,7 +37,7 @@ def is_set(x, y, z):
         return 0
 
 
-number_of_plays = 5
+number_of_plays = 4
 number_of_sets_per_play = []
 for play in range(0, number_of_plays):
     cards_on_table = random.sample(cards, 12)
